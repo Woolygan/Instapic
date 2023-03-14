@@ -90,7 +90,7 @@ class ComposeFragment : Fragment() {
                 Log.i(MainActivity.TAG, "Successfully saved post...")
                 Toast.makeText(requireContext(), "Successfully uploaded post!", Toast.LENGTH_LONG).show()
                 // TODO: Resetting the EditText field to be empty.
-                view?.findViewById<EditText>(R.id.description)?.getText()?.clear()
+                view?.findViewById<EditText>(R.id.description)?.text?.clear()
                 // TODO: Reset the ImageView field to be empty.
                 view?.findViewById<ImageView>(R.id.imageView)?.setImageResource(R.drawable.instagram_logo)
             }

@@ -18,6 +18,6 @@ class InstapicApplication  : Application() {
                     .applicationId(getString(R.string.back4app_app_id))
                     .clientKey(getString(R.string.back4app_client_key))
                     .server(getString(R.string.back4app_server_url))
-                    .build());
+                    .build())
         }
     }

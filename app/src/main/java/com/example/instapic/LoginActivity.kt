@@ -39,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
         val user = ParseUser()
 
         // Set fields for the user to be created
-        user.setUsername(username)
+        user.username = username
         user.setPassword(password)
 
         user.signUpInBackground { e ->
