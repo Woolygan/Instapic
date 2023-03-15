@@ -9,4 +9,9 @@
     <string name="caption">Caption</string>
     <string name="image">image</string>
     <string name="username">Username</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logo">Logo</string>
 </resources>
